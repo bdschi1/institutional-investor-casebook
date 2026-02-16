@@ -1,0 +1,12 @@
+pyproject.toml
+src/investor_casebook/__init__.py
+src/investor_casebook.egg-info/PKG-INFO
+src/investor_casebook.egg-info/SOURCES.txt
+src/investor_casebook.egg-info/dependency_links.txt
+src/investor_casebook.egg-info/requires.txt
+src/investor_casebook.egg-info/top_level.txt
+src/investor_casebook/data/__init__.py
+src/investor_casebook/data/loader.py
+src/investor_casebook/reasoning/__init__.py
+src/investor_casebook/reasoning/evaluator.py
+tests/test_loader.py

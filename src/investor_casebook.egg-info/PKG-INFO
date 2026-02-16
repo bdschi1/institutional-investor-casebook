@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: investor_casebook
+Version: 0.1.0
+Summary: Institutional Investor Casebook for LLM Finance Reasoning
+Author: Brad Schonhoft
+Requires-Dist: torch>=2.10.0
+Requires-Dist: transformers
+Requires-Dist: pytest
+Requires-Dist: pandas
+Requires-Dist: python-dotenv
