@@ -36,3 +36,24 @@ dev = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = [
+    ".venv",
+    "venv",
+    "docs",
+    "data",
+    "examples",
+    "gpu_dist_test.py",
+    "hf_login_script.py",
+]
+
+[tool.ruff.lint]
+select = ["E", "W", "F"]
+ignore = [
+    "F401",  # unused imports
+    "W291",  # trailing whitespace
+    "W292",  # no newline at end of file
+]
